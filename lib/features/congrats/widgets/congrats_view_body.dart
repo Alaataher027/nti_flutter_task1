@@ -12,20 +12,23 @@ class CongratsViewBody extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.center,
         children: [
-          Spacer(flex: 20),
+          const Spacer(flex: 20),
           Image.asset("assets/images/check_image.png", height: 200, width: 200),
-          Text("Cogratulations!!!", style: Styles.textStyle30),
-          Text("You order have been taken and", style: Styles.textStyle15),
-          Text("is being attended to", style: Styles.textStyle15),
-          Spacer(flex: 9),
+          const Text("Cogratulations!!!", style: Styles.textStyle30),
+          const Text(
+            "You order have been taken and",
+            style: Styles.textStyle15,
+          ),
+          const Text("is being attended to", style: Styles.textStyle15),
+          const Spacer(flex: 9),
 
-          CustomButton(
+          const CustomButton(
             title: 'Track order',
-            bgColor: const Color(0xFFFFB36D),
+            bgColor: Color(0xFFFFB36D),
             textColor: Colors.white,
             width: 150,
           ),
-          Spacer(flex: 9),
+          const Spacer(flex: 9),
           CustomButton(
             onTap: () {
               Navigator.push(
@@ -38,7 +41,7 @@ class CongratsViewBody extends StatelessWidget {
             textColor: const Color(0xFFFFB36D),
             width: 200,
           ),
-          Spacer(flex: 25),
+          const Spacer(flex: 25),
         ],
       ),
     );

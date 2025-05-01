@@ -8,14 +8,14 @@ class CustomBackButton extends StatelessWidget {
   Widget build(BuildContext context) {
     return InkWell(
       onTap: onTap,
-      child: Container(
+      child:  Container(
         width: 90,
         height: 35,
         decoration: BoxDecoration(
           color: Colors.white,
           borderRadius: BorderRadius.circular(24),
         ),
-        child: Row(
+        child: const Row(
           children: [
             Icon(Icons.arrow_back_ios_new_rounded),
             Text("Go back", style: Styles.textStyle15),

@@ -10,7 +10,7 @@ class CheckoutViewBody extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Column(
+    return const Column(
       children: [
         CustomAppBar(),
         Basket(),
@@ -31,14 +31,14 @@ class CheckOutRow extends StatelessWidget {
       padding: const EdgeInsets.symmetric(horizontal: 15),
       child: Row(
         children: [
-          Column(
+          const Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               Text("Total", style: Styles.textStyle16),
               Text("₦ 60000", style: Styles.textStyle20),
             ],
           ),
-          SizedBox(width: 15),
+          const SizedBox(width: 15),
           Expanded(
             child: InkWell(
               onTap: () {
@@ -47,9 +47,9 @@ class CheckOutRow extends StatelessWidget {
                   MaterialPageRoute(builder: (context) => CongratsView()),
                 );
               },
-              child: CustomButton(
+              child: const CustomButton(
                 title: 'CheckOut',
-                bgColor: const Color(0xFFFFB36D),
+                bgColor: Color(0xFFFFB36D),
                 textColor: Colors.white,
                 width: 150,
               ),

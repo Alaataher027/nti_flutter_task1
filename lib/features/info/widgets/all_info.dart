@@ -11,53 +11,59 @@ class AllInfoList extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          InfoData(
+          const InfoData(
             title: "main",
             infoData: "+1 2020 577 5548",
             infoColor: Colors.green,
           ),
-          Divider(color: Color.fromARGB(160, 208, 206, 206), thickness: 1),
+          const Divider(color: Color.fromARGB(160, 208, 206, 206), thickness: 1),
 
-          InfoData(
+          const InfoData(
             title: "home",
             infoData: "+1 2020 577 5548",
             infoColor: Colors.blue,
           ),
 
-          SizedBox(height: 12),
+          const SizedBox(height: 12),
 
-          InfoData(
+          const InfoData(
             title: "bio",
             infoData: "Design adds value faster, then it adds cost",
 
             infoColor: Color.fromARGB(255, 0, 0, 0),
           ),
-          Divider(color: Color.fromARGB(160, 208, 206, 206), thickness: 1),
-          SizedBox(height: 20),
+          const Divider(color: Color.fromARGB(160, 208, 206, 206), thickness: 1),
+          const SizedBox(height: 20),
 
           Row(
             children: [
-              Text("Notification", style: Styles.textStyle16),
-              Spacer(),
+              const Text("Notification", style: Styles.textStyle16),
+              const Spacer(),
               Text(
                 "Enabled",
                 style: Styles.textStyle16.copyWith(color: Colors.grey),
               ),
-              Icon(
+              const Icon(
                 Icons.arrow_forward_ios_rounded,
                 size: 15,
                 color: Colors.grey,
               ),
             ],
           ),
-          Divider(color: Color.fromARGB(160, 208, 206, 206), thickness: 1),
-          SizedBox(height: 20),
+          const Divider(
+            color: Color.fromARGB(160, 208, 206, 206),
+            thickness: 1,
+          ),
+          const SizedBox(height: 20),
 
           Text(
             "Delete Contact",
             style: Styles.textStyle16.copyWith(color: Colors.red),
           ),
-          Divider(color: Color.fromARGB(160, 208, 206, 206), thickness: 1),
+          const Divider(
+            color: Color.fromARGB(160, 208, 206, 206),
+            thickness: 1,
+          ),
         ],
       ),
     );

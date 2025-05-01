@@ -23,8 +23,12 @@ class SettingItem extends StatelessWidget {
               ),
             ],
           ),
-          Spacer(),
-          Icon(Icons.arrow_forward_ios_rounded, color: Colors.grey, size: 21),
+          const Spacer(),
+          const Icon(
+            Icons.arrow_forward_ios_rounded,
+            color: Colors.grey,
+            size: 21,
+          ),
         ],
       ),
     );

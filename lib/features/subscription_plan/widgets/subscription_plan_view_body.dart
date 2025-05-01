@@ -18,9 +18,9 @@ class SubscriptionPlanViewBody extends StatelessWidget {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              InfoTitle(),
-              PlanOptions(),
-              Instructions(),
+              const InfoTitle(),
+              const PlanOptions(),
+              const Instructions(),
               CustomButton(
                 onTap:
                     () => Navigator.push(

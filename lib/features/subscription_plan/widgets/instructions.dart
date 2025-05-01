@@ -21,12 +21,12 @@ class Instructions extends StatelessWidget {
             "You'll get: ",
             style: Styles.textStyle20.copyWith(fontWeight: FontWeight.bold),
           ),
-          SizedBox(height: 10),
-          InstructionLine(title: "Unlimited access"),
-          SizedBox(height: 5),
-          InstructionLine(title: "200GB storage"),
-          SizedBox(height: 5),
-          InstructionLine(title: "Sync all you devices "),
+          const SizedBox(height: 10),
+          const InstructionLine(title: "Unlimited access"),
+          const SizedBox(height: 5),
+          const InstructionLine(title: "200GB storage"),
+          const SizedBox(height: 5),
+          const InstructionLine(title: "Sync all you devices "),
         ],
       ),
     );
@@ -43,7 +43,7 @@ class InstructionLine extends StatelessWidget {
     return Row(
       children: [
         const Icon(Icons.star, color: Colors.blue),
-        SizedBox(width: 10),
+        const SizedBox(width: 10),
         Text(
           title,
           style: Styles.textStyle15.copyWith(

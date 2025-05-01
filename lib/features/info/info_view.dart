@@ -6,6 +6,6 @@ class InfoView extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(body: const InfoViewBody(), backgroundColor: Colors.white);
+    return const Scaffold(body: InfoViewBody(), backgroundColor: Colors.white);
   }
 }

@@ -6,8 +6,8 @@ class CongratsView extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      body: const CongratsViewBody(),
+    return const Scaffold(
+      body: CongratsViewBody(),
       backgroundColor: Colors.white,
     );
   }

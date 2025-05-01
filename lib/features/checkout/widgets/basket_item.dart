@@ -27,7 +27,7 @@ class BasketItem extends StatelessWidget {
               borderRadius: BorderRadius.circular(12),
               child: Image.asset(basketItemModel.imagePath),
             ),
-            SizedBox(width: 15),
+            const SizedBox(width: 15),
             Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
@@ -43,9 +43,9 @@ class BasketItem extends StatelessWidget {
                 ),
               ],
             ),
-            Spacer(),
+            const Spacer(),
             Text("₦ ${basketItemModel.price}"),
-            SizedBox(width: 8),
+            const SizedBox(width: 8),
           ],
         ),
       ),

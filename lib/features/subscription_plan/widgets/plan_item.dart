@@ -36,11 +36,11 @@ class PlanItem extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
             Icon(Icons.circle_outlined),
-            SizedBox(width: 12),
+            const SizedBox(width: 12),
             Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               mainAxisAlignment: MainAxisAlignment.center,
-              children: [
+              children:  [
                 Text(title, style: Styles.textStyle18),
                 Text(
                   discout,
@@ -48,7 +48,7 @@ class PlanItem extends StatelessWidget {
                 ),
               ],
             ),
-            Spacer(),
+            const Spacer(),
             Column(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [

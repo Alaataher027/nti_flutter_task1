@@ -7,8 +7,8 @@ class InfoViewBody extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return SafeArea(
-      child: const Column(children: [CustomAppBar(), AllInfoList()]),
+    return const SafeArea(
+      child: Column(children: [CustomAppBar(), AllInfoList()]),
     );
   }
 }

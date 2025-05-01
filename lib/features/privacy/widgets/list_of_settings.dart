@@ -13,20 +13,20 @@ class ListOfSettings extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          SizedBox(height: 20),
+          const SizedBox(height: 20),
 
           Text(
             "Who can see my personal info",
             style: Styles.textStyle15.copyWith(color: const Color(0xFF008069)),
           ),
-          SizedBox(height: 20),
-          SettingItem(title: 'Last seen and online', state: 'Everyone'),
-          Divider(thickness: 1, color: Color.fromARGB(92, 158, 158, 158)),
-          SettingItem(title: 'Profile photo', state: 'Everyone'),
-          Divider(thickness: 1, color: Color.fromARGB(92, 158, 158, 158)),
-          SettingItem(title: 'About', state: 'Everyone'),
-          Divider(thickness: 1, color: Color.fromARGB(92, 158, 158, 158)),
-          CheckBoxItem(
+          const SizedBox(height: 20),
+          const SettingItem(title: 'Last seen and online', state: 'Everyone'),
+          const Divider(thickness: 1, color: Color.fromARGB(92, 158, 158, 158)),
+          const SettingItem(title: 'Profile photo', state: 'Everyone'),
+          const Divider(thickness: 1, color: Color.fromARGB(92, 158, 158, 158)),
+          const SettingItem(title: 'About', state: 'Everyone'),
+          const Divider(thickness: 1, color: Color.fromARGB(92, 158, 158, 158)),
+          const CheckBoxItem(
             state:
                 "If turned off, you won't send or receive Read receipts, Read receipts are always sent for group chats.",
             title: "Read receipts",

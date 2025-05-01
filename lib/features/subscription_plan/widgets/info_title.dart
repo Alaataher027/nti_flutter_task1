@@ -6,7 +6,7 @@ class InfoTitle extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Column(
+    return const Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
         SizedBox(height: 100),
@@ -14,7 +14,7 @@ class InfoTitle extends StatelessWidget {
         SizedBox(height: 14),
         Text(
           "And get a 7-day free trial",
-          style: TextStyle(color: const Color.fromARGB(255, 132, 132, 132)),
+          style: TextStyle(color: Color.fromARGB(255, 132, 132, 132)),
         ),
       ],
     );

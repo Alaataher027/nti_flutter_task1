@@ -16,18 +16,18 @@ class CustomAppBar extends StatelessWidget {
       child: Row(
         crossAxisAlignment: CrossAxisAlignment.center,
         children: [
-          Spacer(flex: 5),
+          const Spacer(flex: 5),
           CustomBackButton(
             onTap: () {
               Navigator.pop(context);
             },
           ),
-          Spacer(flex: 10),
+          const Spacer(flex: 10),
           Text(
             "My Basket",
             style: Styles.textStyle20.copyWith(color: Colors.white),
           ),
-          Spacer(flex: 30),
+          const Spacer(flex: 30),
         ],
       ),
     );

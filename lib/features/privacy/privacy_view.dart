@@ -7,7 +7,7 @@ class PrivacyView extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
+    return  Scaffold(
       body: const PrivacyViewBody(),
       backgroundColor: Colors.white,
       appBar: AppBar(
@@ -19,13 +19,13 @@ class PrivacyView extends StatelessWidget {
             alignment: Alignment.bottomLeft,
             child: Padding(
               padding: const EdgeInsets.only(left: 16, bottom: 20),
-              child: Row(
+              child:  Row(
                 children: [
                   GestureDetector(
                     child: Icon(Icons.arrow_back, color: Colors.white),
                     onTap: () => Navigator.pop(context),
                   ),
-                  SizedBox(width: 30),
+                  const SizedBox(width: 30),
                   Text(
                     "Privacy",
                     style: Styles.textStyle20.copyWith(color: Colors.white),

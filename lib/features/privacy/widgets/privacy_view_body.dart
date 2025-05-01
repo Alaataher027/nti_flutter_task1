@@ -35,14 +35,23 @@ class PrivacyViewBody extends StatelessWidget {
                 ),
 
                 // crossAxisAlignment: CrossAxisAlignment.start,
-                SizedBox(height: 20),
+                const SizedBox(height: 20),
 
-                SettingItem(title: 'Default message timer', state: 'Off'),
-                Divider(thickness: 1, color: Color.fromARGB(92, 158, 158, 158)),
-                SettingItem(title: 'Groups', state: 'Everyone'),
-                Divider(thickness: 1, color: Color.fromARGB(92, 158, 158, 158)),
-                SettingItem(title: 'Blocked contacts', state: 'None'),
-                Divider(thickness: 1, color: Color.fromARGB(92, 158, 158, 158)),
+                const SettingItem(title: 'Default message timer', state: 'Off'),
+                const Divider(
+                  thickness: 1,
+                  color: Color.fromARGB(92, 158, 158, 158),
+                ),
+                const SettingItem(title: 'Groups', state: 'Everyone'),
+                const Divider(
+                  thickness: 1,
+                  color: Color.fromARGB(92, 158, 158, 158),
+                ),
+                const SettingItem(title: 'Blocked contacts', state: 'None'),
+                const Divider(
+                  thickness: 1,
+                  color: Color.fromARGB(92, 158, 158, 158),
+                ),
               ],
             ),
           ),
